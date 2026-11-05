@@ -18,5 +18,5 @@ if __name__ == "__main__":
     start_http_server(8000)
 
     # Start HTTP server on port 5000
-    server = http.server.HTTPServer(('34.93.208.54', 5000), HandleRequest)
+    server = http.server.HTTPServer(('0.0.0.0', 5000), HandleRequest)
     server.serve_forever()
